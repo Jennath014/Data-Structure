@@ -1,0 +1,41 @@
+#include<stdio.h>
+#define SIZE 10
+
+int main()
+{
+ int c, n, ab, b;
+ printf("\nEnter number of elements to enter:");
+ scanf("%d",&n);
+ 
+ printf("Disjoint set operations:");
+ printf("\n1. Union \n 2. Find \n 3. Display \n 4. exit\n ");
+ while(1)
+ {
+  printf("Choice? :");
+  scanf("%d",&c);
+  
+  switch9c0
+  {
+   case 1: printf("Enter two numbers to union:");
+   	   scanf("%d %d", &a,&b);
+   	   union(a,b);
+   	   break;
+   	   
+   case 2: printf("Enter element to find its parent:");
+   	   scanf("%d",&a);
+   	   find(a);
+   	   break;
+   	   
+   case 3: printf("Display all sets:");
+   	   display();
+   	   break;
+   	   
+   case 4: printf("Exiting....!");
+   	   exit(0);
+   	  
+   default: printf("Invalid Choice...!");
+  }
+ }
+ return 0;
+}
+
